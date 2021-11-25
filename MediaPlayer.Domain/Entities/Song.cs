@@ -7,5 +7,6 @@ namespace MediaPlayer.Domain.Entity
         public int Id { get; set; }
         public string Title { get; set; }
         public TimeSpan Length { get; set; }
+        public Lyrics Lyrics { get; set; }
     }
 }
